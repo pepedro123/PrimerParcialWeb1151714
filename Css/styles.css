@@ -131,7 +131,7 @@ p{
 .section {
     margin-top: 15px;
    
-    align-items: center; /* Alinea verticalmente el título con el párrafo */
+    align-items: center; 
 }
 
 .section h3 {
@@ -144,6 +144,16 @@ p{
 button{
     color: #6490F5;
     background-color: #243357;
+}
+.aside-list li {
+    padding: 5px;
+    list-style-type: none; 
+    transition: background-color 0.3s; 
+}
+
+
+.aside-list li:hover {
+    background-color: #4563A8; 
 }
 
 
