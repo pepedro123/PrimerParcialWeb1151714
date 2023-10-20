@@ -5,6 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     
+    
 }
 
 header {
@@ -14,6 +15,31 @@ header {
     width: 100%;
     text-align: center;
     line-height: 120px;
+   
+    
+}
+.logo-al-lado {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; 
+    background-color: #ffffff; 
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    margin-left: 20px; 
+    font-size: 2.5em;
 }
 
 main {
@@ -22,6 +48,7 @@ main {
     min-height: 400px;
     text-align: center; 
     background-color: #4563A8;
+    align-items: center;
     
 }
 
@@ -32,6 +59,7 @@ aside {
     min-height: 400px;
     text-align: center;
     background-color: #6490F5;
+    align-items: center;
 }
 
 footer {
