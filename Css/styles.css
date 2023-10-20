@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+header {
+    max-width: 1200px;
+    min-height: 120px;
+    background-color: #567BD1;
+    width: 100%;
+    text-align: center;
+    line-height: 120px;
+}
+
+main {
+    flex: 3;
+    max-width: 900px;
+    min-height: 400px;
+    text-align: center; 
+    background-color: #4563A8;
+    
+}
+
+aside {
+    flex: 1;
+    max-width: 300px;
+    min-width: 200px;
+    min-height: 400px;
+    text-align: center;
+    background-color: #6490F5;
+}
+
+footer {
+    display: flex;
+    min-height: 80px;
+    max-height: 80px;
+    width: 100%;
+    background-color: #344B80;
+    max-width: 1200px;
+}
+
+.footer-part {
+    flex: 1;
+    background-color: #243357;
+    text-align: center;
+    line-height: 80px;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+}
