@@ -28,7 +28,7 @@ header {
     width: 60px;
     height: 60px;
     border-radius: 50%; 
-    background-color: #ffffff; 
+    background-color: white; 
     overflow: hidden;
     margin-right: 20px;
 }
@@ -41,6 +41,7 @@ header {
 h1 {
     margin-left: 20px; 
     font-size: 2.5em;
+    color: #243357;
 }
 
 main {
@@ -59,7 +60,7 @@ aside {
     min-width: 200px;
     min-height: 400px;
     text-align: center;
-    background-color: #6490F5;
+    background-color: #4563A8;
     align-items: center;
 }
 
@@ -67,12 +68,12 @@ footer {
     display: flex;
     max-height: 160px; 
     width: 100%;
-    background-color: #344B80;
+    background-color: #6490F5;
 }
 
 .footerpartido {
     flex: 1;
-    background-color: #243357;
+    background-color: #6490F5;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -92,12 +93,16 @@ footer {
 h3{
     font: bold;
     font-size: 1.5em;
-    color: #ffffff;
+    color: #243357;
 }
 
 li{
 
-    color: #ffffff;
+    color: #243357;
+}
+p{
+    text-align: right;
+    color: #243357;
 }
 
 
